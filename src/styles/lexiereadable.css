@@ -1,0 +1,8 @@
+/* src/styles/opendyslexic.css */
+@font-face {
+    font-family: 'Lexie Readable';
+    src: url('../../public/font/LexieReadable-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+  }

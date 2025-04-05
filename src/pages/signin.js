@@ -10,7 +10,7 @@ export default function SignInPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen" >
       {/* Navigation */}
 
 
@@ -51,7 +51,7 @@ export default function SignInPage() {
                 </div>
 
                 {/* Form Section */}
-                <div className="p-8 md:p-12 bg-[#E9EFFD]">
+                <div className="p-8 md:p-12 bg-[#E9EFFD]" style={{ paddingBottom: "var(--vertical-spacing)" }}>
                   <h1 className="text-3xl font-bold mb-2">Welcome Back!</h1>
                   <p className="mb-6">
                     New to Speak Up?{" "}
